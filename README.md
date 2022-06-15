@@ -1,8 +1,10 @@
 # Passgen-mail-mass-send
 
-Here is a password generator that takes for input an Excel file, add a column a create a password for each line
+Here is :
 
-and a mass mailer, which takes for input an excel file too and sends an email to the email found in column 1 and can incorporate text from other column. The text of the e-mail can be written using html.
+- a password generator that takes for input an Excel file, add a column a create a password for each line
+
+- a mass mailer, which takes for input an excel file too and sends an email to the email found in column 1 and can incorporate text from other column. The text of the e-mail can be written using html.
 
 
 Required modules :  Pandas
