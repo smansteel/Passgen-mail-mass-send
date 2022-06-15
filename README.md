@@ -11,8 +11,8 @@ Required modules :  Pandas
 
 
 Known bugs: 
-the first row of the excel file is considered a header so is not treated by neither the passgen or the massmailer
-If the emails that you send are to an external server, you might be blocked after a few emails.
-The password has to be in clear text in the code
+- The first row of the excel file is considered a header so is not treated by neither the passgen or the massmailer
+-  -If the emails that you send are to an external server, you might be blocked after a few emails.
+- The password has to be in clear text in the code
 
-If you have any question about this do not hesitate to contact me.
+If you have any question about this do not hesitate to contact me here or on discord : sman_steel#4595
