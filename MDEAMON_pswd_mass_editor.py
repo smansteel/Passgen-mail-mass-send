@@ -10,16 +10,16 @@ i= 0 # Start index
 ok = False
 
 
-def is_korum(i):
+def is_company(i):
     name_content = df.iat[i, 1][2:]
     if str(name_content).split("@")[1] != "domain.com":
-        korum =False
+        company =False
     else:
-        korum = True
-    return korum
+        company = True
+    return company
 
 def userselect(i):
-    while not is_korum(i):
+    while not is_company(i):
         i+=1
     name_content = df.iat[i, 1][2:]
     name = str(name_content).split("@")[0]
