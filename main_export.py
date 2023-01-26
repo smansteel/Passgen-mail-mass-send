@@ -32,7 +32,7 @@ if input("Do you want to start the mass send from this excel file? y/[n]").lower
         </html>
         """
 
-        receiver_email = name_content #'test_pwd@e-korum.com'
+        receiver_email = name_content 
 
         # Create MIMEMultipart object
         msg = MIMEMultipart("alternative")
